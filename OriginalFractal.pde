@@ -32,6 +32,7 @@ public void hello(float x, float y, float len) {
     ellipse(x, y, len, len);
   if(len>15){
     hello(x-len/2, y, len/2);
+    rotate(PI/6);
     noFill();
     stroke(50, 250, 50);
     hello(x+len/2, y, len/2);    
