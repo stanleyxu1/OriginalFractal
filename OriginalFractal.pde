@@ -1,9 +1,9 @@
 public void setup() {
-  size(1000, 1000);
+  size(500, 500);
 }
-float x =500.0;
-float y = 500.0;
-float l = 500;
+float x =250.0;
+float y = 250.0;
+float l = 250;
 
 
 
